@@ -22,6 +22,8 @@
 
 [Original discussion from June 2014](https://lists.w3.org/Archives/Public/public-webapps/2014AprJun/0296.html)
 
+<blockquote>To make this simpler for sites, frameworks, and browsers, it makes sense to enable a new, simpler version of contentEditable that provides basic functionality only. For the sake of discussion, call it contentEditable='minimal'</blockquote>
+
 Julie Parent breaking down potential `contentEditable=minimal` functionality:
 
 1. Selections: Enable selections, perform cursor movement, scoping the boundaries on which the selection can operate.
@@ -29,9 +31,11 @@ Julie Parent breaking down potential `contentEditable=minimal` functionality:
 3. Spell check: Enable spell check, modify the dom (or dispatch an event) when the user selects a replacement
 4. Formatting magic: bold when the user hits control + b, change directionality on Ctrl+LeftShift , etc.
 
-[Piotr Koszuliński on current progress with contentEditable=minimal](https://lists.w3.org/Archives/Public/public-editing-tf/2015Sep/0011.html)
+Where do we draw the line with `cE=minimal`? Only 1 or 1+2? Should `cE=minimal` modify DOM? Opinions divided in two. Some say that DOM mutation is a can of worms that shouldn't be opened (instead allowing user to change it programmatically). Others say that cE=minimal will be useless without some sort of automatic text modification.
 
 [W3C ticket on contentEditable=plaintext](https://www.w3.org/Bugs/Public/show_bug.cgi?id=14554)
+
+[Piotr Koszuliński on current progress with contentEditable=minimal](https://lists.w3.org/Archives/Public/public-editing-tf/2015Sep/0011.html)
 
 ### Light at the end of a tunnel?
 

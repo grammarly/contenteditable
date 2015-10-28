@@ -13,7 +13,7 @@
 - [Facebook](http://facebook.com) implements rich editing via textarea and an overlayed element on top to visualize mentions
 - [Google plus](http://plus.google.com) has `contenteditable="plaintext-only"` which seems to be completely JS-driven plain element
 - [Grammarly](http://grammarly.com) implements grammar-correcting-underlines via textarea + element on top (reasons: contenteditable is slow to render, no way to clean markup, hard to do proper selection/annotations)
-- Quip has a hybrid editor (each paragraph is a contenteditable line; same with http://notion.so)
+- [Quip](http://quip.com) has a hybrid editor (each paragraph is a contenteditable line; same with http://notion.so)
 - [Trix editor](http://trix-editor.org/) ignores contentEditable and maintains its own internal model (to avoid dealing with x-browser inconsistencies and complexities); same with [ProseMirror](https://github.com/ProseMirror/prosemirror#prosemirror)
 
 [Chrome ticket on improving painting performance of contentEdtiable](https://code.google.com/p/chromium/issues/detail?id=544357)

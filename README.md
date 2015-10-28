@@ -8,10 +8,6 @@
 
 [List of contentEditable browser inconsistencies by Guardian](https://github.com/guardian/scribe/blob/master/BROWSERINCONSISTENCIES.md)
 
-### Light at the end of a tunnel?
-
-[The Editing Task Force](http://w3c.github.io/editing/)
-
 ### Problematic use cases in the wild
 
 - [Facebook](http://facebook.com) implements rich editing via textarea and an overlayed element on top to visualize mentions
@@ -20,6 +16,7 @@
 - Quip has a hybrid editor (each paragraph is a contenteditable line; same with http://notion.so)
 - [Trix editor](http://trix-editor.org/) ignores contentEditable and maintains its own internal model (to avoid dealing with x-browser inconsistencies and complexities); same with [ProseMirror](https://github.com/ProseMirror/prosemirror#prosemirror)
 
+[Chrome ticket on improving painting performance of contentEdtiable](https://code.google.com/p/chromium/issues/detail?id=544357)
 
 ### contentEditable=minimal
 
@@ -35,6 +32,10 @@ Julie Parent breaking down potential `contentEditable=minimal` functionality:
 [Piotr Koszuliński on current progress with contentEditable=minimal](https://lists.w3.org/Archives/Public/public-editing-tf/2015Sep/0011.html)
 
 [W3C ticket on contentEditable=plaintext](https://www.w3.org/Bugs/Public/show_bug.cgi?id=14554)
+
+### Light at the end of a tunnel?
+
+[The Editing Task Force](http://w3c.github.io/editing/)
 
 ### What about this kind of tiered solution?
 

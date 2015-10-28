@@ -2,7 +2,7 @@
 
 [Nick Santos (medium) on "Why contentEditable is terrible"](https://medium.com/medium-eng/why-contenteditable-is-terrible-122d8a40e480#.9ufahzkm5)
 
-["Piotrek Koszuliński (CKEditor) on "contentEditable — the good, the bad, and the ugly"](https://medium.com/content-uneditable/contenteditable-the-good-the-bad-and-the-ugly-261a38555e9c#.6ksozblw5)
+[Piotrek Koszuliński (CKEditor) on "contentEditable — the good, the bad, and the ugly"](https://medium.com/content-uneditable/contenteditable-the-good-the-bad-and-the-ugly-261a38555e9c#.6ksozblw5)
 
 [Piotrek Koszuliński (CKEditor) on "Fixing contentEditable"](https://medium.com/content-uneditable/fixing-contenteditable-1a9a5073c35d#.g6ectyosw)
 
